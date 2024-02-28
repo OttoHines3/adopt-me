@@ -7,7 +7,7 @@ const fetchSearch = async ({ queryKey }) => {
 
   if (!res.ok) {
     throw new Error(
-      `Error fetching request for ${animal} from ${location} of breed type ${breed}`
+      `Error fetching request for ${animal} from this location ${location} of breed type ${breed}`
     );
   }
 
